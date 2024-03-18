@@ -27,7 +27,7 @@ public class Main {
   public static void main(String[] args) {
     try{
       Buffer_io obj=new Buffer_io();
-      obj.output_file("myfile.txt","Hello guys welcome to program");
+      obj.output_file("myfile.txt","Hello , guys welcome to program");
       obj.input_file("myfile.txt");
     }
     catch(Exception e){
